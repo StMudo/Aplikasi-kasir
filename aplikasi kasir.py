@@ -13,7 +13,6 @@ daftar_barang = {
 
 pembelian = {}
 
-# Ensure the receipts directory exists
 if not os.path.exists("receipts"):
     os.makedirs("receipts")
 
